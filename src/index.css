@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+*{
+  box-sizing: border-box;
+}
+header{
+  width: 100%;
+  background-color: blue;
+}
+main{
+  width: 100%;
+  max-width: 600px;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+}
+.mainContaier{
+  display: flex;
+  flex-direction: row\\\;
+
+
+}
+.labels{
+  font-size:17px;
+  font-weight: bolder;
+}
+
+input{
+  border: solid black 2px;
+  margin: 5px 0;
+  width: 100%;
+  font-weight:500;
+}
+.meme{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  word-wrap: break-word;
+  text-align: center;
+}
+.meme img{
+  width:100%;
+  max-width:600px ;
+  border-radius: 20px;
+}
+.meme span{
+  position:absolute;
+  text-transform: capitalize;
+  color: aliceblue;
+  font-weight:bolder;
+  font-size:40px;
+  text-decoration:double;
+  max-width:  20ch;
+} 
