@@ -2,6 +2,7 @@
 
 *{
   box-sizing: border-box;
+  font-family:'Poppins', Courier, monospace;
 }
 header{
   width: 100%;
@@ -22,7 +23,7 @@ main{
 }
 .labels{
   font-size:17px;
-  font-weight: bolder;
+  font-weight:600;
 }
 
 input{
